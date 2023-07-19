@@ -1,3 +1,5 @@
+import Azul from "@/components/azul";
+import Rojo from "@/components/rojo";
 import { useState } from "react";
 
 export default function Home() {
@@ -12,6 +14,8 @@ export default function Home() {
       <h1>Home</h1>
       <h2 onClick={increment}>incrementar</h2>
       <p>{numero}</p>
+      <Rojo/>
+      <Azul text="pepe"/>
     </div>
-  )
+  );
 }
